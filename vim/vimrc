@@ -7,6 +7,9 @@ set list listchars=tab:»\ ,trail:·,extends:»,precedes:«
 " Load manual pages.
 runtime ftplugin/man.vim
 
+" Enable ftplugin for code style based in file type.
+filetype plugin on
+
 " Set tex flavor
 let g:tex_flavor = 'latex'
 
