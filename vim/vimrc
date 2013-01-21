@@ -1,6 +1,7 @@
 set backupdir=~/.vim/bak/
 set encoding=utf8
 set bg=dark
+set expandtab
 
 " Mark tabs and spaces.
 set list listchars=tab:»\ ,trail:·,extends:»,precedes:«
