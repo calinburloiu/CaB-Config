@@ -3,8 +3,12 @@ set encoding=utf8
 set bg=dark
 set expandtab
 
-" Mark tabs and spaces.
-set list listchars=tab:»\ ,trail:·,extends:»,precedes:«
+" Set soft word wrap.
+set wrap linebreak nolist
+map j gj
+map k gk
+" Mark tabs and spaces. TODO goes into conflict with soft word wrap
+"set list listchars=tab:»\ ,trail:·,extends:»,precedes:«
 
 " Load manual pages.
 runtime ftplugin/man.vim
