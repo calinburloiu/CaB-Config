@@ -3,3 +3,5 @@
 	email = calin.burloiu@gmail.com
 [alias]
 	hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+[color]
+	ui = auto
