@@ -1,9 +1,9 @@
 set backupdir=~/.vim/bak/
 set encoding=utf8
 set bg=dark
-set softtabstop=4
+set tabstop=4
 set shiftwidth=4
-set autoindent
+set smartindent
 
 " Set soft word wrap.
 set wrap linebreak nolist
