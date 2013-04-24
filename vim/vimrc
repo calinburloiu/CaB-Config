@@ -7,8 +7,8 @@ set smartindent
 
 " Set soft word wrap.
 set wrap linebreak nolist
-map j gj
-map k gk
+map <Down> gj
+map <Up> gk
 " Mark tabs and spaces. TODO goes into conflict with soft word wrap
 "set list listchars=tab:»\ ,trail:·,extends:»,precedes:«
 
