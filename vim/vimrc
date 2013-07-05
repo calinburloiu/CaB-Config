@@ -4,6 +4,7 @@ set bg=dark
 set tabstop=4
 set shiftwidth=4
 set smartindent
+set hlsearch
 
 " Set soft word wrap.
 set wrap linebreak nolist
