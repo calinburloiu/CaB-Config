@@ -21,6 +21,11 @@ filetype plugin on
 " Set tex flavor
 let g:tex_flavor = 'latex'
 
+" Pig
+augroup filetypedetect
+  au BufNewFile,BufRead *.pig set filetype=pig syntax=pig
+augroup END
+
 " Tell vim to remember certain things when we exit
 "  '10  :  marks will be remembered for up to 10 previously edited files
 "  "100 :  will save up to 100 lines for each register
