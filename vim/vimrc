@@ -6,6 +6,9 @@ set shiftwidth=4
 set smartindent
 set hlsearch
 
+" Toggle paste mode for pasting from Clipboard.
+set pastetoggle=<F2>
+
 " Set soft word wrap.
 set wrap linebreak nolist
 map <Down> gj
