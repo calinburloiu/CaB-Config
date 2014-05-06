@@ -25,9 +25,10 @@ filetype plugin on
 " Set tex flavor
 let g:tex_flavor = 'latex'
 
-" Pig
+" Pig / Hive
 augroup filetypedetect
   au BufNewFile,BufRead *.pig set filetype=pig syntax=pig
+  au BufNewFile,BufRead *.hql set filetype=sql
 augroup END
 
 " Tell vim to remember certain things when we exit
