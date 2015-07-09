@@ -5,4 +5,4 @@ export HADOOP_HOME="${HOME}/opt/hadoop"
 export HIVE_HOME="${HOME}/opt/hive"
 export SPARK_HOME="${HOME}/opt/spark"
 # Set PATH.
-export PATH="${PATH}:${HOME}/opt/hadoop/bin:${HOME}/opt/hive/bin:${HOME}/opt/spark/bin"
+export PATH="${HOME}/opt/hadoop/bin:${HOME}/opt/hive/bin:${HOME}/opt/spark/bin:${PATH}"
