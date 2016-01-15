@@ -2,7 +2,7 @@
 	name = Calin-Andrei Burloiu
 	email = calin.burloiu@gmail.com
 [alias]
-	hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+	hist = log --pretty=format:\"%C(yellow)%h%Creset %C(bold)%s%Creset %C(bold blue)<%an>%Creset %Cgreen(%cr) %Creset%C(bold red)%d%Creset\" --graph --date=short --abbrev-commit
 [color]
 	ui = auto
 [push]
