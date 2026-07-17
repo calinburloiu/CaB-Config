@@ -3,6 +3,7 @@
 	email = calin.burloiu@gmail.com
 [alias]
 	hist = log --pretty=format:\"%C(yellow)%h%Creset %C(bold)%s%Creset %C(bold blue)<%an>%Creset %Cgreen(%cr)%Creset %C(auto)%d%Creset\" --graph --date=short --abbrev-commit
+    hist-branch = "!f() { git log --pretty=format:\"%C(yellow)%h%Creset %C(bold)%s%Creset %C(bold blue)<%an>%Creset     %Cgreen(%cr)%Creset %C(auto)%d%Creset\" --graph --date=short --abbrev-commit \"$(git merge-base origin/main HEAD)\"..   HEAD; }; f"
 [color]
 	ui = auto
 [push]
