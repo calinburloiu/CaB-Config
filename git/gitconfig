@@ -1,15 +1,15 @@
 [user]
-	name = Calin-Andrei Burloiu
-	email = calin.burloiu@gmail.com
+    name = Calin-Andrei Burloiu
+    email = calin.burloiu@gmail.com
 [alias]
-	hist = log --pretty=format:\"%C(yellow)%h%Creset %C(bold)%s%Creset %C(bold blue)<%an>%Creset %Cgreen(%cr)%Creset %C(auto)%d%Creset\" --graph --date=short --abbrev-commit
+    hist = log --pretty=format:\"%C(yellow)%h%Creset %C(bold)%s%Creset %C(bold blue)<%an>%Creset %Cgreen(%cr)%Creset %C(auto)%d%Creset\" --graph --date=short --abbrev-commit
     hist-branch = "!f() { git log --pretty=format:\"%C(yellow)%h%Creset %C(bold)%s%Creset %C(bold blue)<%an>%Creset     %Cgreen(%cr)%Creset %C(auto)%d%Creset\" --graph --date=short --abbrev-commit \"$(git merge-base origin/main HEAD)\"..   HEAD; }; f"
 [color]
-	ui = auto
+    ui = auto
 [push]
-	default = simple
+    default = simple
 [rerere]
-	enabled = 1
+    enabled = 1
 
 [pager]
     branch = false
